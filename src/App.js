@@ -4,27 +4,38 @@ import Contact from './components/component.jsx';
 function App() {
   return (
     <div className="App">
-      <Contact name="Shoaib" address="1922 Clownsville NY"/>
+      <div className="card">
+        <Contact 
+        name="Muhammed"
+        mobileNumber="111-111-1111"
+        workNumber="917-777-7777"
+        email="muhammed@gmail.com"
+        />
+      </div>
+
+      <div className="card">
+        <Contact 
+        name="Rasul Nekzad"
+        mobileNumber="222-222-2222"
+        workNumber="777-777-777"
+        email="rasul@gmail.com"
+        />
+      </div>
+
+      <div className="card">
+        <Contact 
+        name="Tashi"
+        mobileNumber="999-999-9999"
+        workNumber="444-444-444"
+        email="tashi@gmail.com"
+        />
+      </div>
+
     </div>
+
+    
   );
 }
 
 export default App;
- /**
-  * <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  */
+ 
